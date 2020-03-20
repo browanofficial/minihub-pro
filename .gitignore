@@ -1,0 +1,20 @@
+# Ignore uncrustify backups
+*.unc*
+doc/html/*
+doc/output/*
+doc/tag/*
+doxygen_warnings.txt
+/.metadata/
+.vscode/*
+*.o
+*.d 
+*.elf
+*.hex
+*.bin
+
+RemoteSystemsTempFiles/*
+release-*.*.*/
+
+# Ignore top-level build dir
+/build*/
+

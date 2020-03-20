@@ -380,9 +380,9 @@ Tip: Use the following command to do cmake, build, erase, flash, monitor in one 
 
 The MiniHub Pro can run as WiFi AP mode or WiFi Station mode. When the device in the initial state, such as first bootup time or after reset-to-default. It will run with the WiFi AP mode. That means it accepts any WiFi client to connect to it via WiFi.
 
-You can find the SSID `esp32_XXXX` on the WiFi site-survey list. The suffix 4 characters are the last 4 hex string of WiFi MAC address. The default password is `esp32pwd`, you can change it on CLI mode.
+You can find the SSID `MiniHubPro-XXXXXX` on the WiFi site-survey list. The suffix 4 characters are the last 4 hex string of WiFi MAC address. The default password is `esp32pwd`, you can change it on CLI mode.
 
-After connected to esp32_XXXX AP, it will open the WiFI connect setup page. You will see the WiFi site survey list which scans by MiniHub Pro (**only 2.4GHz can be found**).
+After connected to MiniHubPro-XXXXXX AP, it will open the WiFI connect setup page. You will see the WiFi site survey list which scans by MiniHub Pro (**only 2.4GHz can be found**).
 
 Choose one of the WiFi AP which you prefer to connect to the internet. After that, the MiniHub will store the connect info and switch to WiFi Station mode.
 

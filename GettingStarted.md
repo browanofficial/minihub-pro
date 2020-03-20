@@ -410,9 +410,9 @@ In CLI prompt, you can use wifi_info to get your WiFi MAC address, AP/Station mo
 
 	esp32> wifi_info
 	WiFi MAC    : 24:6F:28:3F:2E:18
-	WiFi SSID   : esp32_2E18
+	WiFi SSID   : MiniHubPro-3F2E18
 	WiFi PWD    : esp32pwd
-	Station SSID:
+	Station SSID: -----2G
 	Station PWD :
 
 You can also use clean_wifi command to clean the Station info. But after that, the device will switch back to AP mode.

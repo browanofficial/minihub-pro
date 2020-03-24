@@ -424,14 +424,7 @@ Press the RESET BUTTON over 5 seconds can reset the system to default status and
 
 The default basicstation configuration files are from live-s2.sm.tc source ; https://github.com/lorabasics/basicstation/tree/master/examples/live-s2.sm.tc
 
-## 2. WiFi Connection
-The device can run as WiFi AP mode or WiFi Station mode. When the device in the initial state, such as first bootup time or after reset-to-default. It will run with the WiFi AP mode. That means it accepts any WiFi client to connect to it via WiFi.
-
-You can find the SSID esp32_XXXX on the WiFi site-survey list. The suffix 4 characters are the last 4 hex string of WiFi MAC address. The default password is esp32pwd, you can change it on CLI mode.
-
-After connected to esp32_XXXX AP, it will open the WiFI connect setup page. You will see the WiFi site survey list which scans by MiniHub (only 2.4GHz can be found). Choose one of the WiFi AP which you prefer to connect to the internet. After that, the MiniHub will store the connect info and switch to WiFi Station mode
-
-## 3. Basicstation running
+## 2. Basicstation running
 The basicstation will automatically running once mimihub-pro has Internet access by WiFi. The default configuration connects to a public test server s2.sm.tc through which Station fetches all required credentials and a channel plan matching the region as determined from the IP address of the gateway. Provided there are active LoRa devices in proximity, received LoRa frames are printed in the log output on stderr.
 
 	2020-03-20 08:07:48.113 [SYS:INFO] MiniHub-pro : 0.1.2 2020-03-20 08:07:48.171 [SYS:INFO] Logging : stderr (maxsize=10000000,
